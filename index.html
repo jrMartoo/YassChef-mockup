@@ -239,14 +239,15 @@
     </footer>
 
     <!-- FLOATING DASHBOARD (Hidden by default) -->
-    <div id="cart-dashboard" class="cart-dashboard">
-        <h3>Your Selection</h3>
-        <ul id="cart-items"></ul>
-        <div class="cart-total">
-            <strong>Total: KSh <span id="cart-total-price">0</span></strong>
-        </div>
-        <button class="btn-whatsapp" onclick="checkoutWhatsApp()">Complete Order on WhatsApp</button>
-    </div>
+    <!-- Floating Cart Dashboard -->
+<div class="cart-dashboard" id="cart-dashboard">
+    <h3>Your Cart</h3>
+    <ul id="cart-items"></ul>
+    <div class="cart-total" id="cart-total">Total: KSh 0</div>
+    
+    <!-- CHANGE THIS LINE -->
+    <button class="checkout-btn" onclick="checkoutWhatsApp()">Checkout via WhatsApp</button>
+</div>
 
     <script src="script.js"></script>
         <!-- Footer -->
