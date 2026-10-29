@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yass Chef | Premium Kitchenware</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <!-- Navigation -->
+       <!-- Navigation -->
+    <nav class="fade-in">
+        <img src="images/big logo.png" alt="Yass Chef Logo" class="logo">
+        <div class="nav-links">
+            <a href="#retail" class="nav-btn-retail">Retail Shop</a>
+            <a href="#wholesale" class="nav-btn-wholesale">Wholesale</a>
+            <a href="https://wa.me/254794209525" class="contact-btn">WhatsApp Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+       <!-- Hero Section -->
+    <header class="hero">
+        <!-- This is the background image -->
+        <div class="hero-bg"></div>
+        
+        <!-- This is your custom graffiti text overlay -->
+        <div class="hero-text-overlay slide-up">
+            <p class="script-text">Timeless Quality</p>
+            <p class="script-text">for a Beautiful</p>
+            <p class="script-text">Kitchen.</p>
+            <a href="#retail" class="btn-gold">Shop Diwali Offers</a>
+        </div>
+    </header>
+    <!-- Signature Section -->
+    <section class="signature-section">
+        <div class="signature-content scroll-reveal">
+            <p class="signature-script">Crafted for Excellence</p>
+            <h2 class="signature-title">50 Years of Yass Chef</h2>
+            <div class="gold-divider"></div>
+            <p class="signature-desc">Trusted by generations of home cooks, professional chefs, and the hospitality industry in Kenya.</p>
+        </div>
+    </section>
+
+    <!-- Retail Section -->
+    <section id="retail" class="featured">
+        <h2 class="fade-in">Shop the Diwali Collection</h2>
+        
+               <!-- CATEGORY 1: COPPER MATKAS -->
+        <h3 class="category-title fade-in">Copper Matkas with Tap</h3>
+        <div class="product-grid">
+            <!-- Matka 1 -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/copper printed matka with tap 5L.png" alt="Black Matka">
+                <h3>Copper Printed Matka (Black)</h3>
+                <p>5 Litres with Tap</p>
+                <p class="price"><span class="old-price">KSh 10,500</span> KSh 8,400</p>
+                <button class="add-btn" onclick="addToCart('Black Copper Matka', 8400)">Add to Selection</button>
+            </div>
+            
+            <!-- Matka 2 -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/matka 2.png" alt="Blue Matka">
+                <h3>Copper Printed Matka (Blue)</h3>
+                <p>5 Litres with Tap</p>
+                <p class="price"><span class="old-price">KSh 10,500</span> KSh 8,400</p>
+                <button class="add-btn" onclick="addToCart('Blue Copper Matka', 8400)">Add to Selection</button>
+            </div>
+
+            <!-- Matka 3 -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/matka 3.png" alt="Floral Matka">
+                <h3>Copper Printed Matka (Floral)</h3>
+                <p>5 Litres with Tap</p>
+                <p class="price"><span class="old-price">KSh 10,500</span> KSh 8,400</p>
+                <button class="add-btn" onclick="addToCart('Floral Copper Matka', 8400)">Add to Selection</button>
+            </div>
+
+            <!-- Matka 4 -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/matka 4.png" alt="8L Matka">
+                <h3>Copper Printed Matka 8L</h3>
+                <p>8 Litres with Tap</p>
+                <p class="price"><span class="old-price">KSh 12,500</span> KSh 10,000</p>
+                <button class="add-btn" onclick="addToCart('Copper Printed Matka 8L', 10000)">Add to Selection</button>
+            </div>
+        </div>
+
+        
+                <!-- CATEGORY 2: COOKWARE -->
+        <h3 class="category-title fade-in">Cast Iron Cookware</h3>
+        <div class="product-grid">
+            <!-- Pan 1 -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/pan 1.png" alt="Cast Iron Pan">
+                <h3>Cast Iron Skillet Pan 25cm</h3>
+                <p>Heavy-duty cooking</p>
+                <p class="price"><span class="old-price">KSh 5,625</span> KSh 4,500</p>
+                <button class="add-btn" onclick="addToCart('Cast Iron Skillet Pan 25cm', 4500)">Add to Selection</button>
+            </div>
+
+            <!-- Pan 2 -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/pan 2.png" alt="Cast Iron Skillet Pan 26cm">
+                <h3>Cast Iron Skillet Pan 26cm</h3>
+                <p>Heavy-duty cooking</p>
+                <p class="price"><span class="old-price">KSh 5,850</span> KSh 4,680</p>
+                <button class="add-btn" onclick="addToCart('Cast Iron Skillet Pan 26cm', 4680)">Add to Selection</button>
+            </div>
+
+            <!-- Pan 3 (Griddle) -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/pan 3.png" alt="Cast Iron Griddle">
+                <h3>Cast Iron Griddle Pan 26cm</h3>
+                <p>Perfect for grilling</p>
+                <p class="price"><span class="old-price">KSh 8,750</span> KSh 7,000</p>
+                <button class="add-btn" onclick="addToCart('Cast Iron Griddle Pan', 7000)">Add to Selection</button>
+            </div>
+
+            <!-- Pan 4 (Double Sided) -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/pan 4.webp" alt="Tescoma Double Sided Pan">
+                <h3>Tescoma Double Sided Grill 30cm</h3>
+                <p>Premium cast iron grill</p>
+                <p class="price"><span class="old-price">KSh 13,000</span> KSh 10,400</p>
+                <button class="add-btn" onclick="addToCart('Tescoma Double Sided Grill', 10400)">Add to Selection</button>
+            </div>
+        </div>
+
+                <!-- CATEGORY 3: COPPER DRINKWARE -->
+        <h3 class="category-title fade-in">Copper Drinkware & Jugs</h3>
+        <div class="product-grid">
+            
+            <!-- Tumbler -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">30% OFF</div>
+                <img src="images/copper water tumbler 300ml.png" alt="Copper Tumbler">
+                <h3>Copper Water Tumbler 300ml</h3>
+                <p>Hammered pure copper</p>
+                <p class="price"><span class="old-price">KSh 1,500</span> KSh 1,050</p>
+                <button class="add-btn" onclick="addToCart('Copper Water Tumbler', 1050)">Add to Selection</button>
+            </div>
+
+            <!-- Moscow Mule Mug -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">30% OFF</div>
+                <img src="images/copper moscow mule mug 350ml.webp" alt="Copper Mug">
+                <h3>Copper Moscow Mule Mug</h3>
+                <p>350ml with handle</p>
+                <p class="price"><span class="old-price">KSh 2,600</span> KSh 1,820</p>
+                <button class="add-btn" onclick="addToCart('Copper Moscow Mule Mug', 1820)">Add to Selection</button>
+            </div>
+
+            <!-- Copper Bottle -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/no background.png" alt="Copper Water Bottle">
+                <h3>Printed Copper Water Bottle 1L</h3>
+                <p>Elegant design</p>
+                <p class="price"><span class="old-price">KSh 4,500</span> KSh 3,600</p>
+                <button class="add-btn" onclick="addToCart('Printed Copper Water Bottle', 3600)">Add to Selection</button>
+            </div>
+
+            <!-- Tumbler + Jug Set -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/1copper tumbler 300ml+aqua jug 1L.png" alt="Copper Set">
+                <h3>Tumbler 300ml + Aqua Jug 1L Set</h3>
+                <p>Perfect gift set</p>
+                <p class="price"><span class="old-price">KSh 4,700</span> KSh 3,760</p>
+                <button class="add-btn" onclick="addToCart('Tumbler + Aqua Jug Set', 3760)">Add to Selection</button>
+            </div>
+
+            <!-- Pearl Copper Jug -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/pearl copper water jug hmd 1.4L.png" alt="Pearl Copper Jug">
+                <h3>Pearl Copper Water Jug HMD 1.4L</h3>
+                <p>Hammered finish</p>
+                <p class="price"><span class="old-price">KSh 8,500</span> KSh 6,800</p>
+                <button class="add-btn" onclick="addToCart('Pearl Copper Water Jug', 6800)">Add to Selection</button>
+            </div>
+
+            <!-- Copper Monarch Jug -->
+            <div class="product-card slide-up">
+                <div class="discount-badge">20% OFF</div>
+                <img src="images/copper monarch jug 1.6L.png" alt="Copper Monarch Jug">
+                <h3>Copper Monarch Jug 1.6L</h3>
+                <p>Classic royal design</p>
+                <p class="price"><span class="old-price">KSh 7,500</span> KSh 6,000</p>
+                <button class="add-btn" onclick="addToCart('Copper Monarch Jug 1.6L', 6000)">Add to Selection</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Wholesale Section -->
+    <section id="wholesale" class="wholesale">
+        <div class="wholesale-content fade-in">
+            <h2>Hospitality & Wholesale Supplies</h2>
+            <p>Trusted by hotels, restaurants, and catering businesses across Kenya. Get premium kitchenware at bulk rates with expert advice.</p>
+            <a href="https://wa.me/254720713141" class="btn-gold">Request a Bulk Quote</a>
+        </div>
+    </section>
+        <!-- Map Section (Visit Us) -->
+    <section id="visit-us" class="map-section">
+        <div class="map-content">
+            <h2>Visit Our Store</h2>
+            <p>Come experience the quality of our kitchenware in person.</p>
+            <div class="map-info">
+                <p><i class="fas fa-map-marker-alt"></i> Corner Plaza, Westlands, Nairobi</p>
+                <p><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 6:00 PM</p>
+            </div>
+            <a href="https://maps.google.com/?q=Corner+Plaza+Westlands+Nairobi" target="_blank" class="btn-outline">Get Directions</a>
+        </div>
+        <div class="map-image">
+            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1000&auto=format&fit=crop" alt="Map Location">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <img src="images/big logo.png" alt="Yass Chef Logo" class="footer-logo">
+        <p>Yass Chef Store · Corner Plaza, Westlands, Nairobi</p>
+        <p>@yasschefke · Instagram & Facebook</p>
+    </footer>
+
+    <!-- FLOATING DASHBOARD (Hidden by default) -->
+    <div id="cart-dashboard" class="cart-dashboard">
+        <h3>Your Selection</h3>
+        <ul id="cart-items"></ul>
+        <div class="cart-total">
+            <strong>Total: KSh <span id="cart-total-price">0</span></strong>
+        </div>
+        <button class="btn-whatsapp" onclick="checkoutWhatsApp()">Complete Order on WhatsApp</button>
+    </div>
+
+    <script src="script.js"></script>
+        <!-- Footer -->
+  
+
+    <!-- Add this line right here! -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
+</body>
+</html>
